@@ -1,0 +1,11 @@
+export const HOME = '/';
+export const EVENTS = '/events';
+export const EVENT_PAGE = '/eventpage';
+export const CODING = '/events/coding';
+export const DEBUGGING = '/events/debugging';
+export const PAPER_PRESENTATION = '/events/paper-presentation';
+export const WEB_DESIGN = '/events/web-design';
+export const REELSTAGRAM = '/events/reelstagram';
+export const CREATIVA_LOGO = '/events/creativa-logo';
+export const MARVEL_TRIVIA = '/events/marvel-trivia';
+export const BGMI_CLASH = '/events/bgmi-clash';
