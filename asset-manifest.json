@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genio2k22/static/css/main.38be36b0.css",
-    "main.js": "/genio2k22/static/js/main.8c583ab1.js",
+    "main.js": "/genio2k22/static/js/main.09f84ef9.js",
     "static/css/568.78752d41.chunk.css": "/genio2k22/static/css/568.78752d41.chunk.css",
     "static/js/568.ff400a71.chunk.js": "/genio2k22/static/js/568.ff400a71.chunk.js",
     "static/css/885.78752d41.chunk.css": "/genio2k22/static/css/885.78752d41.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/logo.svg": "/genio2k22/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/genio2k22/index.html",
     "main.38be36b0.css.map": "/genio2k22/static/css/main.38be36b0.css.map",
-    "main.8c583ab1.js.map": "/genio2k22/static/js/main.8c583ab1.js.map",
+    "main.09f84ef9.js.map": "/genio2k22/static/js/main.09f84ef9.js.map",
     "568.78752d41.chunk.css.map": "/genio2k22/static/css/568.78752d41.chunk.css.map",
     "568.ff400a71.chunk.js.map": "/genio2k22/static/js/568.ff400a71.chunk.js.map",
     "885.78752d41.chunk.css.map": "/genio2k22/static/css/885.78752d41.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.38be36b0.css",
-    "static/js/main.8c583ab1.js"
+    "static/js/main.09f84ef9.js"
   ]
 }
