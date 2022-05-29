@@ -76,7 +76,7 @@ const content = [
 
 function App() {
   return (
-    <Router>
+    <Router basename='genio2k22'>
       <NavBarComp />
       <Routes>
         <Route path={ROUTES.HOME} element={<Home />} />
