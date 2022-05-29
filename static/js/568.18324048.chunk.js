@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgenio_22=self.webpackChunkgenio_22||[]).push([[568],{568:function(n,e,u){u.r(e),u.d(e,{default:function(){return r}});var i=u(184);function r(){return(0,i.jsx)("div",{children:"Hello"})}}}]);
-//# sourceMappingURL=568.18324048.chunk.js.map
