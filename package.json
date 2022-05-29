@@ -2,7 +2,6 @@
   "name": "genio-22",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ram-bharath.github.io/genio2k22",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
