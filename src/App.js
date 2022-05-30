@@ -3,6 +3,7 @@ import { lazy } from 'react';
 import * as ROUTES from './constants/routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarComp from './components/NavBarComp';
+import Contact from './components/Contact';
 
 const Home = lazy(() => import('./pages/home'));
 const Events = lazy(() => import('./pages/events'));
@@ -13,7 +14,7 @@ const content = [
     eventId:0,
     title:'Paper Presentation',
     descText:'Impress us with your innovative ideas',
-    cardImgSrc:'',
+    cardImgSrc:'/assets/card/paper-presentation/images.jpeg',
     contact:[{'name':'Karthik S', phoneNumber:'9751776969'},{'name':'', phoneNumber:''}]
   },
   {
@@ -79,10 +80,14 @@ function App() {
     <Router>
       <NavBarComp />
       <Routes>
-        <Route path={ROUTES.HOME} element={<Home />} />
+        <Route path={ROUTES.HOME} element={
+        <>
+          <Home />
+          <Contact />
+        </>} />
         <Route path={ROUTES.EVENTS} element={<Events />}/>
         <Route path={ROUTES.EVENT_PAGE} element={<EventPage />} />
-        <Route path={ROUTES.PAPER_PRESENTATION} element={<EventPage title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} contact={content[0].contact}/>} />
+        <Route path={ROUTES.PAPER_PRESENTATION} element={<EventPage title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} cardImgSrc={content[0].cardImgSrc}  contact={content[0].contact}/>} />
         <Route path={ROUTES.CODING} element={<EventPage title={content[1].title} descText={content[1].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[1].cardImgSrc} contact={content[1].contact}/>} />
         <Route path={ROUTES.WEB_DESIGN} element={<EventPage title={content[2].title} descText={content[2].descText} bgSrc={content[2].bgSrc} cardImgSrc={content[2].cardImgSrc} contact={content[2].contact}/>}/>
         <Route path={ROUTES.DEBUGGING} element={<EventPage title={content[3].title} descText={content[3].descText} bgSrc={content[3].bgSrc} cardImgSrc={content[3].cardImgSrc} contact={content[3].contact}/>}  />

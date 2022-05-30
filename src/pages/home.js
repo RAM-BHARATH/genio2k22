@@ -1,5 +1,6 @@
 import '../styles/events.css';
 import { Card, Figure } from 'react-bootstrap';
+import Contact from '../components/Contact';
 export default function Home() {
     return(
         // <div className="container-fluid p-0" style={{ minHeight:'100vh' }}>
@@ -12,13 +13,14 @@ export default function Home() {
         //         </div>
         //     </div>
         // </div>
-        <div className="container-fluid fill full-height center-vertical p-0 m-0">
+        <div className="container-fluid fill full-height center-vertical p-0 m-0" id="top">
             <div className="row flex flex-wrap center-vertical text-center full-height home-bg p-0 w-100 m-0" style={{ background:`url(/assets/bg/home-bg-2.jpg)`, backgroundSize:'cover' }}>
                 {/* <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
                 <h3>AND</h3>
                 <h3>PROFESSIONAL ASSOCIATION OF COMPUTER ENGINEERS</h3>
                 <h3>PROUDLY PRESENTS</h3> */}
                 <img src="/assets/logos/genio2k22-high-res.png" alt="Title" style={{ maxWidth:'50vw' }}/>
+                <h3 className='text-white'>June 9, 2022</h3>
             </div>
             <div className="row flex flex-wrap center-vertical text-center full-height p-0 m-0">
                 <h3>Our Sponsors</h3>
@@ -37,6 +39,7 @@ export default function Home() {
                         </Card>
                 </div>
             </div>
+            {/* <Contact className="container-fluid" /> */}
         </div>
     //     <>
             
