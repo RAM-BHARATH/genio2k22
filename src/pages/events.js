@@ -4,10 +4,9 @@ import '../styles/events.css';
 
 export default function Events() {
     return(
-        <div className="container-fluid fill bg-dark full-height center-vertical" style={{ background:`url('/assets/bg.jpg')` }}>
-            
-            <h3 className="mb-0 p-0 text-white">Tech</h3>
-            <div className="row mx-auto flex items-center justify-center mt-0">
+        <div className="container-fluid fill bg-dark full-height center-vertical" style={{ background:`url('/assets/bg.jpg')` }}>   
+            <h4 className="mb-0 text-white center-vertical pt-sm-5">Tech</h4>
+            <div className="row mx-auto flex items-center justify-center" style={{marginBottom:'0'}}>
                 <a href="/events/paper-presentation" style={{ width:'fit-content', margin:'0 auto' }}>
                     <EventCard className="mt-0" title={'Paper Presentation'} imgSrc={'/assets/card/paper-presentation/images.jpeg'}/>
                 </a>
@@ -21,7 +20,7 @@ export default function Events() {
                     <EventCard className="mt-0" title={'Debugging'} imgSrc={'/assets/card/debugging.jpeg'}/>
                 </a>
             </div>
-            <h3 className="mb-0 p-0 text-white">Non-Tech</h3>
+            <h4 className="mb-0 p-0 text-white">Non-Tech</h4>
             <div className="row mx-auto mt-0">
                 <a href="/events/reelstagram" style={{ width:'fit-content', margin:'0 auto'  }}>
                     <EventCard className="mt-0" title={'Reelstagram'} imgSrc={'/assets/card/reels.jpeg'}/>

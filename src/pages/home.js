@@ -39,6 +39,9 @@ export default function Home() {
                         </Card>
                 </div>
             </div>
+            {/* <div className="row flex flex-wrap center-vertical text-center full-height p-0 m-0">
+                <img src="/assets/ticket.png" alt="" style={{ width:'300px'}}/>
+            </div> */}
             {/* <Contact className="container-fluid" /> */}
         </div>
     //     <>
