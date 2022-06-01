@@ -15,7 +15,7 @@ const content = [
     title: 'Paper Presentation',
     descText: 'Impress us with your innovative ideas',
     cardImgSrc: '/assets/card/paper-presentation/images.jpeg',
-    contact: [{ 'name': 'Karthik S', phoneNumber: '9751776969' }, { 'name': '', phoneNumber: '' }]
+    contact: [{ 'name': 'Karthik S', phoneNumber: '97517 76969' }, { 'name': '', phoneNumber: '' }]
   },
   {
     eventId: 1,
@@ -23,15 +23,24 @@ const content = [
     descText: 'Show off your skills',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/coding.jpg',
-    contact: [{ 'name': 'Vignesh', phoneNumber: '9080478472' }, { 'name': 'Arun Mani', phoneNumber: '' }]
+    contact: [{ 'name': 'Vignesh', phoneNumber: '90804 78472' }, { 'name': 'Arun Mani', phoneNumber: '' }],
+    rules: [
+      "Two rounds will be conducted",
+      "Top 10 scorers from the first round will compete in the 2nd round for the top 3 positions",
+      "Each challenge has a pre-determined score",
+      "A participant’s score depends on the number of test cases a participant’s code submission successfully passes",
+      "If a participant submits more than one solution per challenge, then the participant’s score will reflect the highest score achieved. In a game challenge, the participant's score will reflect the last code submission",
+      "Participants are ranked by score. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score",
+      "Criteria - Everyone must have a hackerrank account for participating in the contest"
+    ]
   },
   {
     eventId: 2,
     title: 'Web Design',
-    descText: "\“There are three responses to a piece of design – yes , no and wow . WOW! Is the one to aim for.\”",
+    descText: "\“There are three responses to a piece of design– yes, no and wow . WOW! Is the one to aim for.\”",
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/web.jpeg',
-    contact: [{ 'name': 'Naveen MS', phoneNumber: '7904045699' }, { 'name': 'Kabilan', phoneNumber: '7639902510' }],
+    contact: [{ 'name': 'Naveen MS', phoneNumber: '79040 45699' }, { 'name': 'Kabilan', phoneNumber: '76399 02510' }],
     rules: [
       "Participants are requested to bring their personal devices for this event.",
       "You will be assigned to a task and you have to design a web page based on the task given.",
@@ -49,7 +58,20 @@ const content = [
     descText: 'What\'s the problem here?',
     bgSrc: '/assets/debugging.jpeg',
     cardImgSrc: '/assets/card/debugging.jpeg',
-    contact: [{ 'name': 'Arunambika', phoneNumber: '7899668979' }, { 'name': 'Eswaran', phoneNumber: '8807101772' }]
+    contact: [{ 'name': 'Arunambika', phoneNumber: '78996 68979' }, { 'name': 'Eswaran', phoneNumber: '88071 01772' }],
+    rules:[
+      "a team can be max of 3 members",
+      "mobile phones not allowed",
+      "programming languages C, JAVA, Python",
+      "Based on the contestants preliminary will be taken individually",
+      "Preliminary round consists of small debugging problems(Time:30min)",
+      "Those who solve maximum no. of problems will be qualified",
+      "Team score will be calculated according to the individual scores and then the team will be qualified to the next round",
+      "Main round consists of problems with medium level difficulty(Time:45min)",
+        "i]1st, 2nd and 3rd place will be selected according to the points scored",
+        "ii] If tied according to points then time will be considered to choose the places]",
+      "Marks will be provided by the jury."
+    ]
   },
   {
     eventId: 4,
@@ -57,7 +79,14 @@ const content = [
     descText: 'What\'s the problem here?',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/reels.jpeg',
-    contact: [{ 'name': 'Rithick KV', phoneNumber: '9360273339' }, { 'name': 'Yogananth R', phoneNumber: '7395846642' }]
+    contact: [{ 'name': 'Rithick KV', phoneNumber: '93602 73339' }, { 'name': 'Diwahar S', phoneNumber: '80563 21275' }],
+    rules:[
+      "Topic will be given",
+      "Reels should be done within the college premises",
+      "Duration of reels is maximum upto 1 min",
+      "1 hr(max.) will be given to complete the reels",
+      "It must uploaded on Instagram in collaboration with our Instagram page 'genio2k22'"
+    ]
   },
   {
     eventId: 5,
@@ -65,7 +94,13 @@ const content = [
     descText: 'What\'s the problem here?',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '',
-    contact: [{ 'name': 'Bharathi Shavakkar', phoneNumber: '7676977989' }, { 'name': 'Arrush', phoneNumber: '6382034804' }]
+    contact: [{ 'name': 'Bharathi Shavakkar', phoneNumber: '76769 77989' }, { 'name': 'Arrush', phoneNumber: '63820 34804' }],
+    rules:[
+      "Plagiarism is strictly not allowed",
+      "Produce more than different variations of your logo(Recommended)",
+      "Explain your inspiration and main focus of creating the logo in under 100 words",
+      "Duration of the event: 45 mins."
+    ]
   },
   {
     eventId: 6,
@@ -73,7 +108,14 @@ const content = [
     descText: 'Are you a Marvel fan? Prove it by winning the ultimate Marvel quiz',
     bgSrc: '/assets/marvel.jpeg',
     cardImgSrc: '/assets/card/marvel.jpeg',
-    contact: [{ 'name': 'Rajesh', phoneNumber: '7708227327' }, { 'name': 'Prawin VG', phoneNumber: '9952664784' }]
+    contact: [{ 'name': 'Rajesh', phoneNumber: '77082 27327' }, { 'name': 'Prawin VG', phoneNumber: '99526 64784' }],
+    rules:[
+      "All participants are asked to install KAHOOT app on your mobile",
+      "Questions will be displayed on the screen and you have to answer through the app",
+      "A team may contain maximum of two members",
+      "A team must use one mobile device during the event",
+      "Correct and rapid answers are considered and evaluated"
+    ]
   },
   {
     eventId: 7,
@@ -81,7 +123,15 @@ const content = [
     descText: 'What\'s the problem here?',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/bgmi.jpeg',
-    contact: [{ 'name': 'Navin Raj', phoneNumber: '9360270913' }, { 'name': 'Harish', phoneNumber: '8344446333' }]
+    contact: [{ 'name': 'Navin Raj', phoneNumber: '93602 70913' }, { 'name': 'Harish', phoneNumber: '83444 46333' }],
+    rules:[
+      "Have to register the team name 1 hour  before the match starts",
+      "Maximum 4 members per team",
+      "Hacking techniques are not allowed",
+      "All players must have installed the newest version of the game installed in order to participate in the event", 
+      "Teams are responsible for their own technical issues (hardware/internet)",
+      "Matches will not be rescheduled because of technical issues and matches will be played nevertheless"    
+    ]
   },
 ]
 
@@ -116,11 +166,11 @@ function App() {
             rules={content[2].rules}
           />} 
         />
-        <Route path={ROUTES.DEBUGGING} element={<EventPage title={content[3].title} descText={content[3].descText} bgSrc={content[3].bgSrc} cardImgSrc={content[3].cardImgSrc} contact={content[3].contact} />} />
-        <Route path={ROUTES.REELSTAGRAM} element={<EventPage title={content[4].title} descText={content[4].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[4].cardImgSrc} contact={content[4].contact} />} />
-        <Route path={ROUTES.CREATIVA_LOGO} element={<EventPage title={content[5].title} descText={content[5].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[5].cardImgSrc} contact={content[5].contact} />} />
-        <Route path={ROUTES.MARVEL_TRIVIA} element={<EventPage title={content[6].title} descText={content[6].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[6].cardImgSrc} contact={content[6].contact} />} />
-        <Route path={ROUTES.BGMI_CLASH} element={<EventPage title={content[7].title} descText={content[7].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[7].cardImgSrc} contact={content[7].contact} />} />
+        <Route path={ROUTES.DEBUGGING} element={<EventPage title={content[3].title} descText={content[3].descText} bgSrc={content[3].bgSrc} cardImgSrc={content[3].cardImgSrc} contact={content[3].contact} rules={content[3].rules}/>} />
+        <Route path={ROUTES.REELSTAGRAM} element={<EventPage title={content[4].title} descText={content[4].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[4].cardImgSrc} contact={content[4].contact} rules={content[4].rules}/>} />
+        <Route path={ROUTES.CREATIVA_LOGO} element={<EventPage title={content[5].title} descText={content[5].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[5].cardImgSrc} contact={content[5].contact} rules={content[5].rules} />} />
+        <Route path={ROUTES.MARVEL_TRIVIA} element={<EventPage title={content[6].title} descText={content[6].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[6].cardImgSrc} contact={content[6].contact} rules={content[6].rules} />} />
+        <Route path={ROUTES.BGMI_CLASH} element={<EventPage title={content[7].title} descText={content[7].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[7].cardImgSrc} contact={content[7].contact} rules={content[7].rules}/>} />
       </Routes>
     </Router>
   );
