@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 const Home = lazy(() => import('./pages/home'));
 const Events = lazy(() => import('./pages/events'));
 const EventPage = lazy(() => import('./pages/eventPage'));
-
+const PaperPresentation = lazy(() => import('./pages/paperPresentation'));
 const content = [
   {
     eventId: 0,
@@ -147,7 +147,7 @@ function App() {
           </>} />
         <Route path={ROUTES.EVENTS} element={<Events />} />
         <Route path={ROUTES.EVENT_PAGE} element={<EventPage />} />
-        <Route path={ROUTES.PAPER_PRESENTATION} element={<EventPage title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} cardImgSrc={content[0].cardImgSrc} contact={content[0].contact} />} />
+        <Route path={ROUTES.PAPER_PRESENTATION} element={<PaperPresentation title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} cardImgSrc={content[0].cardImgSrc} contact={content[0].contact} />} />
         <Route 
           path={ROUTES.CODING} 
           element={<EventPage title={content[1].title} 

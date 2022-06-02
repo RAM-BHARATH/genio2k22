@@ -5,27 +5,6 @@ export default function Contact() {
     return(
         <div className="container-fluid flex w-100">
             <Row className="text-center bg-dark">
-                <Col sm className="center-only-vertical text-center">
-                    <h3 className="text-white">Contact Us:</h3>
-                    <div className="center-vertical">
-                        <a href="https://instagram.com/genio.2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
-                            <img src="/assets/social/instagram.svg" alt="Instagram" style={{width:"30px", height:"30px"}} className="social-highlight"/>
-                            <p>https://instagram.com/genio.2k22/</p>
-                        </a>
-                        <a href="https://facebook.com/genio2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
-                            <img src="/assets/social/facebook.svg" alt="Facebook" style={{width:"30px", height:"30px"}} className="social-highlight"/>
-                            <p>https://facebook.com/genio2k22/</p>
-                        </a>
-                        <a href="https://twitter.com/genio.2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
-                            <img src="/assets/social/twitter.svg" alt="Twitter" style={{width:"30px", height:"30px"}} className="social-highlight"/>
-                            <p>https://twitter.com/genio.2k22/</p>
-                        </a>
-                        <a href="#top" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
-                            <img src="/assets/social/web.svg" alt="Web" style={{width:"30px", height:"30px"}} className="social-highlight"/>
-                            <p>genio2k22.com</p>
-                        </a>
-                    </div>
-                </Col>
                 <Col sm className="text-white center-only-vertical">
                     <div class="map-responsive">
                             <iframe
@@ -40,6 +19,23 @@ export default function Contact() {
                             allowFullScreen
                             ></iframe>
                             <br />
+                    </div>
+                </Col>
+                <Col sm className="center-only-vertical text-center">
+                    <h3 className="text-white">Contact Us:</h3>
+                    <div className="row flex justify-content-center">
+                        <a href="https://instagram.com/genio.2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
+                            <img src="/assets/social/instagram.svg" alt="Instagram" style={{width:"30px", height:"30px"}} className="social-highlight"/>
+                        </a>
+                        <a href="https://facebook.com/genio2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
+                            <img src="/assets/social/facebook.svg" alt="Facebook" style={{width:"30px", height:"30px"}} className="social-highlight"/>
+                        </a>
+                        <a href="https://twitter.com/genio2k22/" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
+                            <img src="/assets/social/twitter.svg" alt="Twitter" style={{width:"30px", height:"30px"}} className="social-highlight"/>
+                        </a>
+                        <a href="#top" style={{ width:"fit-content", display:'flex',columnGap:'5px', textDecoration:'none' }}>
+                            <img src="/assets/social/web.svg" alt="Web" style={{width:"30px", height:"30px"}} className="social-highlight"/>
+                        </a>
                     </div>
                 </Col>
             </Row>
