@@ -41,7 +41,7 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
                     <Card.ImgOverlay className='img-responsive' src={logo}>
                     </Card.ImgOverlay>
                 </Card> 
-                <div className="container col-lg-6 rounded-3 glass-effect flex center-only-vertical text-white" style={{ height:'480px', overflowY:'scroll' }}>
+                <div className="container col-lg-6 rounded-3 glass-effect flex center-only-vertical text-white"> {/* style={{ height:'480px', overflowY:'scroll' }} */}
                     <h3 className="single-event-title">{title}</h3>
                     <p>{descText}</p>
                     {
