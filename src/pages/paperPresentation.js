@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import logo from '../logo.svg';
 import '../styles/events.css';
 
-export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, contact, rules }) {
+export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, contact }) {
     const topics = [
         "Artificial Intelligence ",
         "Machine Learning ",
@@ -16,9 +16,21 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
         "Augmented Reality"
     ]
     const teamInfo = [
-        "Team formation",
         "A team can have a maximum of 4 participants", 
         "No participants can be part of more than one team"
+    ]
+    const rules=[
+        "Submission and Presentation Guidelines",
+        "Paper should be in IEEE format",
+        "Abstract should not exceed 250 words and paper should not exceed 20 pages",
+        "Kindly Mail your Paper to genioaurcc@gmail.com. Difficulties will be addressed through the same email-id",
+        "Participants should bring 2 hard copies of their paper & softcopy of presentation in .ppt or .pptx format",
+        "The paper submitted will have to be presented during the event",
+        "Hard copies of the same are to be submitted before presentation to Judges",
+        "The Teams will get 10 minutes to present their paper, followed by Question and Answer session",
+        "The participants will have to present their papers in MS-Power Point supported (.ppt or .pptx) format only",
+        "Violation of any rule can result in rejection of paper",
+        "The organisation reserves the right to change/update the rules of the contest at any point of time and will do their best to inform the participants of the same"
     ]
     return(
         <div className="container-fluid fill full-height center-vertical" style={{ backgroundImage:`url(/assets/bg.jpg)`, backgroundSize:'cover' }}>
@@ -29,17 +41,41 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
                     <Card.ImgOverlay className='img-responsive' src={logo}>
                     </Card.ImgOverlay>
                 </Card> 
-                <div className="container col-lg-6 rounded-3 glass-effect flex center-only-vertical text-white">
+                <div className="container col-lg-6 rounded-3 glass-effect flex center-only-vertical text-white" style={{ height:'480px', overflowY:'scroll' }}>
                     <h3 className="single-event-title">{title}</h3>
                     <p>{descText}</p>
                     {
                         !!topics ? (
                             <div>
                                 <ol>
-                                    <p>Topics include but not limited to:</p>
+                                    <h4>Topics include but not limited to:</h4>
                                     {topics.map(topic=>(
                                     <li>{topic}</li>
                                 ))}
+                                </ol>
+                            </div>
+                        ):(<></>)
+                    }
+                    {
+                        !!teamInfo ? (
+                            <div>
+                                <ol>
+                                    <h4>Team Formation:</h4>
+                                    {teamInfo.map(teamInfoSingle=>(
+                                    <li>{teamInfoSingle}</li>
+                                ))}
+                                </ol>
+                            </div>
+                        ):(<></>)
+                    }
+                    {
+                        !!rules ? (
+                            <div>
+                                <ol>
+                                    <h4>Rules:</h4>
+                                    {rules.map(rule=>(
+                                        <li>{rule}</li>
+                                    ))}
                                 </ol>
                             </div>
                         ):(<></>)
