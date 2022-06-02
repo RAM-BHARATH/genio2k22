@@ -26,7 +26,7 @@ export default function Events() {
                     <EventCard className="mt-0" title={'Reelstagram'} imgSrc={'/assets/card/reels.jpeg'}/>
                 </a>
                 <a href="/events/creativa-logo" style={{ width:'fit-content', margin:'0 auto'  }}>
-                    <EventCard className="mt-0" title={'Creativa Logo'} imgSrc={'/assets/card/marvel.jpeg'}/>
+                    <EventCard className="mt-0" title={'Creativa Logo'} imgSrc={'/assets/card/logo-design.jpg'}/>
                 </a>
                 <a href="/events/marvel-trivia" style={{ width:'fit-content', margin:'0 auto'  }}>
                     <EventCard className="mt-0" title={'Marvel Trivia'} imgSrc={'/assets/card/marvel.jpeg'}/>

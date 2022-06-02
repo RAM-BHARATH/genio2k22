@@ -92,8 +92,8 @@ const content = [
     eventId: 5,
     title: 'Creativa Logo',
     descText: 'What\'s the problem here?',
-    bgSrc: '/assets/coding.jpeg',
-    cardImgSrc: '',
+    bgSrc: '/assets/logo-design.jpg',
+    cardImgSrc: '/assets/card/logo-design.jpg',
     contact: [{ 'name': 'Bharathi Shavakkar', phoneNumber: '76769 77989' }, { 'name': 'Arrush', phoneNumber: '63820 34804' }],
     rules:[
       "Plagiarism is strictly not allowed",
