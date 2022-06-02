@@ -15,7 +15,7 @@ const content = [
     title: 'Paper Presentation',
     descText: 'Impress us with your innovative ideas',
     cardImgSrc: '/assets/card/paper-presentation/images.jpeg',
-    contact: [{ 'name': 'Karthik S', phoneNumber: '97517 76969' }, { 'name': '', phoneNumber: '' }]
+    contact: [{ 'name': 'Karthik S', phoneNumber: '97517 76969' }, { 'name': 'Arun Mani', phoneNumber: '63817 36596' }]
   },
   {
     eventId: 1,
@@ -23,7 +23,7 @@ const content = [
     descText: 'Show off your skills',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/coding.jpg',
-    contact: [{ 'name': 'Vignesh', phoneNumber: '90804 78472' }, { 'name': 'Arun Mani', phoneNumber: '' }],
+    contact: [{ 'name': 'Vignesh', phoneNumber: '90804 78472' }, { 'name': 'Rinisha', phoneNumber: '99524 15564' }],
     rules: [
       "Two rounds will be conducted",
       "Top 10 scorers from the first round will compete in the 2nd round for the top 3 positions",
@@ -108,7 +108,7 @@ const content = [
     descText: 'Are you a Marvel fan? Prove it by winning the ultimate Marvel quiz',
     bgSrc: '/assets/marvel.jpeg',
     cardImgSrc: '/assets/card/marvel.jpeg',
-    contact: [{ 'name': 'Rajesh', phoneNumber: '77082 27327' }, { 'name': 'Prawin VG', phoneNumber: '99526 64784' }],
+    contact: [{ 'name': 'Rajesh', phoneNumber: '77082 27327' }, { 'name': 'Ranjanaadevi', phoneNumber: '97912 98241' }],
     rules:[
       "All participants are asked to install KAHOOT app on your mobile",
       "Questions will be displayed on the screen and you have to answer through the app",
