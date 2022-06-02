@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import "../styles/events.css"
 
 export default function NavBarComp() {
     return(
@@ -16,7 +17,7 @@ export default function NavBarComp() {
                     </Navbar.Brand>
                 </Container>
             </Navbar> */}
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className="glass-effect-dark">
                 <Container className="flex justify-center">
                     <Navbar.Brand href="/" className="me-auto">
                         <img

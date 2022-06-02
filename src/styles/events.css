@@ -28,8 +28,26 @@
 } */
 
 .glass-effect {
-    background-color:rgba(14, 195, 219, 0.3);  
-    backdrop-filter: blur(4px);
+    background-color:rgba(14, 195, 219, 0.6);  
+    backdrop-filter: blur(10px);
+}
+
+.glass-effect-dark{
+    background-color:rgba(1, 27, 31, 0.6);  
+    backdrop-filter: blur(2px);
+}
+
+.glow-border{
+    /* border: #d910eb solid 2px; */
+    border: #fff solid 1px;
+    box-shadow: inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff
+}
+
+.reg{
+    border: rgba(255, 255, 255, 0) solid 1px;
+    box-shadow: inset 10px 0 20px #f0f,  /* left magenta */
+    inset -10px 0 20px #0ff;
 }
 
 .custom-bg{

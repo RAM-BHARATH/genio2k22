@@ -15,6 +15,11 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
         "Data Mining and Predictive Analytics ",
         "Augmented Reality"
     ]
+    const teamInfo = [
+        "Team formation",
+        "A team can have a maximum of 4 participants", 
+        "No participants can be part of more than one team"
+    ]
     return(
         <div className="container-fluid fill full-height center-vertical" style={{ backgroundImage:`url(/assets/bg.jpg)`, backgroundSize:'cover' }}>
             <div className="row col-lg-12 col-md-6 col-sm-12 flex justify-center align-center items-center">

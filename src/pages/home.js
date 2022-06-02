@@ -1,6 +1,7 @@
 import '../styles/events.css';
 import { Card, Figure } from 'react-bootstrap';
 import Contact from '../components/Contact';
+import RegisterComp from '../components/RegisterComp';
 export default function Home() {
     return(
         // <div className="container-fluid p-0" style={{ minHeight:'100vh' }}>
@@ -22,6 +23,7 @@ export default function Home() {
                 <img src="/assets/logos/genio2k22-high-res.png" alt="Title" style={{ maxWidth:'50vw' }}/>
                 <h3 className='text-white'>June 9, 2022</h3>
             </div>
+            <RegisterComp />
             <div className="row flex flex-wrap center-vertical text-center full-height p-0 m-0">
                 <h3>Our Sponsors</h3>
                 <div className='row p-0 m-0'>

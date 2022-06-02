@@ -9,6 +9,7 @@ const Home = lazy(() => import('./pages/home'));
 const Events = lazy(() => import('./pages/events'));
 const EventPage = lazy(() => import('./pages/eventPage'));
 const PaperPresentation = lazy(() => import('./pages/paperPresentation'));
+
 const content = [
   {
     eventId: 0,
