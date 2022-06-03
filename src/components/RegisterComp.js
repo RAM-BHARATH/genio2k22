@@ -1,14 +1,14 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import '../styles/events.css'
 
 export default function RegisterComp() {
     return(
-        <div className="container-fluid flex w-100 bg-dark"> {/* reg */}
+        <div className="container-fluid flex w-100 bg-dark p-5"> {/* reg */}
             <Row>
-                <Col sm className="text-white center-only-vertical flex justify-content-center items-center full-height">
+                <Col sm className="text-white center-only-vertical flex justify-content-center items-center py-5">
                     <img src="/assets/ticket-with-price.svg" alt="Registration fee- 500"  className="flex center-vertical" style={{margin:'auto'}}/>
                 </Col>
-                <Col sm className="center-only-vertical flex jusitfy-content-center items-center text-white pb-sm-5">
+                <Col sm className="center-only-vertical flex jusitfy-content-center items-center text-white py-5">
                     <div>
                         <ul>
                             <li>
@@ -25,6 +25,7 @@ export default function RegisterComp() {
                             </li>
                         </ul>
                     </div>
+                    <Button href='https://forms.gle/WQPVqAQxNGeEw25S8' target="_blank" size="lg">Register</Button>
                 </Col>
             </Row>
         </div>

@@ -20,7 +20,6 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
         "No participants can be part of more than one team"
     ]
     const rules=[
-        "Submission and Presentation Guidelines",
         "Paper should be in IEEE format",
         "Abstract should not exceed 250 words and paper should not exceed 20 pages",
         "Kindly Mail your Paper to genioaurcc@gmail.com. Difficulties will be addressed through the same email-id",
@@ -72,7 +71,7 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
                         !!rules ? (
                             <div>
                                 <ol>
-                                    <h4>Rules:</h4>
+                                    <h4>Submission and Presentation Guidelines:</h4>
                                     {rules.map(rule=>(
                                         <li>{rule}</li>
                                     ))}
