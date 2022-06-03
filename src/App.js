@@ -154,6 +154,7 @@ function App() {
           element={<EventPage title={content[1].title} 
             descText={content[1].descText} bgSrc={content[1].bgSrc} 
             cardImgSrc={content[1].cardImgSrc} contact={content[1].contact} 
+            rules={content[1].rules}
           />} 
         />
         <Route 
