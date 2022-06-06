@@ -28,7 +28,7 @@
 } */
 
 .glass-effect {
-    background-color:rgba(14, 195, 219, 0.6);  
+    background-color:rgba(14, 195, 219, 0.459);  
     backdrop-filter: blur(10px);
 }
 
