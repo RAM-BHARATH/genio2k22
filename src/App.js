@@ -16,7 +16,8 @@ const content = [
     title: 'Paper Presentation',
     descText: 'Impress us with your innovative ideas',
     cardImgSrc: '/assets/card/paper-presentation/images.jpeg',
-    contact: [{ 'name': 'Karthik S', phoneNumber: '97517 76969' }, { 'name': 'Arun Mani', phoneNumber: '63817 36596' }]
+    contact: [{ 'name': 'Karthik S', phoneNumber: '97517 76969' }, { 'name': 'Arun Mani', phoneNumber: '63817 36596' }],
+    time:"10:35am - 11:35am"
   },
   {
     eventId: 1,
@@ -33,7 +34,8 @@ const content = [
       "If a participant submits more than one solution per challenge, then the participant’s score will reflect the highest score achieved. In a game challenge, the participant's score will reflect the last code submission",
       "Participants are ranked by score. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score",
       "Criteria - Everyone must have a hackerrank account for participating in the contest"
-    ]
+    ],
+    time:"10:40am - 12:30pm"
   },
   {
     eventId: 2,
@@ -51,7 +53,8 @@ const content = [
       "Evaluation is based on Mobile first response.",
       "Duration for this event is based on your convenience(Max. 1 Hr 30 mins)",
       "Finally you have to push your code on GitHub (Instructions will be given on the task) and if possible make it live with a Readme.md."
-    ]
+    ],
+    time:"12:00am - 1:15pm"
   },
   {
     eventId: 3,
@@ -61,18 +64,17 @@ const content = [
     cardImgSrc: '/assets/card/debugging.jpeg',
     contact: [{ 'name': 'Arunambika', phoneNumber: '78996 68979' }, { 'name': 'Eswaran', phoneNumber: '88071 01772' }],
     rules:[
-      "a team can be max of 3 members",
-      "mobile phones not allowed",
-      "programming languages C, JAVA, Python",
+      "A team can be max of 3 members",
+      "Mobile phones not allowed",
+      "Programming languages C, JAVA, Python",
       "Based on the contestants preliminary will be taken individually",
-      "Preliminary round consists of small debugging problems(Time:30min)",
-      "Those who solve maximum no. of problems will be qualified",
+      "Preliminary round consists of MCQs",
       "Team score will be calculated according to the individual scores and then the team will be qualified to the next round",
-      "Main round consists of problems with medium level difficulty(Time:45min)",
-        "i]1st, 2nd and 3rd place will be selected according to the points scored",
-        "ii] If tied according to points then time will be considered to choose the places]",
-      "Marks will be provided by the jury."
-    ]
+      "Main round consists of problems with medium level difficulty",
+        "1st, 2nd and 3rd place will be selected according to the points scored",
+        "If tied according to points then time will be considered to choose the places"
+    ],
+    time:"03:00pm - 04:00pm"
   },
   {
     eventId: 4,
@@ -87,7 +89,8 @@ const content = [
       "Duration of reels is maximum upto 1 min",
       "1 hr(max.) will be given to complete the reels",
       "It must uploaded on Instagram in collaboration with our Instagram page 'genio2k22'"
-    ]
+    ],
+    time:"10:00am - 1:00 pm"
   },
   {
     eventId: 5,
@@ -101,7 +104,8 @@ const content = [
       "Produce more than different variations of your logo(Recommended)",
       "Explain your inspiration and main focus of creating the logo in under 100 words",
       "Duration of the event: 45 mins."
-    ]
+    ],
+    time:"2:20pm - 3:20pm"
   },
   {
     eventId: 6,
@@ -116,7 +120,8 @@ const content = [
       "A team may contain maximum of two members",
       "A team must use one mobile device during the event",
       "Correct and rapid answers are considered and evaluated"
-    ]
+    ],
+    time:"3:00pm - 4:00pm"
   },
   {
     eventId: 7,
@@ -132,7 +137,8 @@ const content = [
       "All players must have installed the newest version of the game installed in order to participate in the event", 
       "Teams are responsible for their own technical issues (hardware/internet)",
       "Matches will not be rescheduled because of technical issues and matches will be played nevertheless"    
-    ]
+    ],
+    time:"2:00pm - 2:30pm"
   },
 ]
 
@@ -148,13 +154,14 @@ function App() {
           </>} />
         <Route path={ROUTES.EVENTS} element={<Events />} />
         <Route path={ROUTES.EVENT_PAGE} element={<EventPage />} />
-        <Route path={ROUTES.PAPER_PRESENTATION} element={<PaperPresentation title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} cardImgSrc={content[0].cardImgSrc} contact={content[0].contact} />} />
+        <Route path={ROUTES.PAPER_PRESENTATION} element={<PaperPresentation title={content[0].title} descText={content[0].descText} bgSrc={content[0].bgSrc} cardImgSrc={content[0].cardImgSrc} contact={content[0].contact} time={content[0].time} />} />
         <Route 
           path={ROUTES.CODING} 
           element={<EventPage title={content[1].title} 
             descText={content[1].descText} bgSrc={content[1].bgSrc} 
             cardImgSrc={content[1].cardImgSrc} contact={content[1].contact} 
             rules={content[1].rules}
+            time={content[1].time}
           />} 
         />
         <Route 
@@ -166,13 +173,14 @@ function App() {
             cardImgSrc={content[2].cardImgSrc} 
             contact={content[2].contact} 
             rules={content[2].rules}
+            time={content[2].time}
           />} 
         />
-        <Route path={ROUTES.DEBUGGING} element={<EventPage title={content[3].title} descText={content[3].descText} bgSrc={content[3].bgSrc} cardImgSrc={content[3].cardImgSrc} contact={content[3].contact} rules={content[3].rules}/>} />
-        <Route path={ROUTES.REELSTAGRAM} element={<EventPage title={content[4].title} descText={content[4].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[4].cardImgSrc} contact={content[4].contact} rules={content[4].rules}/>} />
-        <Route path={ROUTES.CREATIVA_LOGO} element={<EventPage title={content[5].title} descText={content[5].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[5].cardImgSrc} contact={content[5].contact} rules={content[5].rules} />} />
-        <Route path={ROUTES.MARVEL_TRIVIA} element={<EventPage title={content[6].title} descText={content[6].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[6].cardImgSrc} contact={content[6].contact} rules={content[6].rules} />} />
-        <Route path={ROUTES.BGMI_CLASH} element={<EventPage title={content[7].title} descText={content[7].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[7].cardImgSrc} contact={content[7].contact} rules={content[7].rules}/>} />
+        <Route path={ROUTES.DEBUGGING} element={<EventPage title={content[3].title} descText={content[3].descText} bgSrc={content[3].bgSrc} cardImgSrc={content[3].cardImgSrc} contact={content[3].contact} rules={content[3].rules} time={content[3].time}/>} />
+        <Route path={ROUTES.REELSTAGRAM} element={<EventPage title={content[4].title} descText={content[4].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[4].cardImgSrc} contact={content[4].contact} rules={content[4].rules} time={content[4].time}/>} />
+        <Route path={ROUTES.CREATIVA_LOGO} element={<EventPage title={content[5].title} descText={content[5].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[5].cardImgSrc} contact={content[5].contact} rules={content[5].rules} time={content[5].time} />} />
+        <Route path={ROUTES.MARVEL_TRIVIA} element={<EventPage title={content[6].title} descText={content[6].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[6].cardImgSrc} contact={content[6].contact} rules={content[6].rules} time={content[6].time} />} />
+        <Route path={ROUTES.BGMI_CLASH} element={<EventPage title={content[7].title} descText={content[7].descText} bgSrc={content[1].bgSrc} cardImgSrc={content[7].cardImgSrc} contact={content[7].contact} rules={content[7].rules} time={content[7].time}/>} />
       </Routes>
     </Router>
   );

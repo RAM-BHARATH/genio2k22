@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import logo from '../logo.svg';
 import '../styles/events.css';
 
-export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, contact }) {
+export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, contact, time }) {
     const topics = [
         "Artificial Intelligence ",
         "Machine Learning ",
@@ -82,7 +82,7 @@ export default function paperPresentation({ title, descText, bgSrc, cardImgSrc, 
                                 </div>
                             ):(<></>)
                         }
-                        <p>Time: 10:00pm - 1:00pm</p>
+                        <p>Time: {time}</p>
                         <div className="container-fluid p-0">
                             <p className="border-bottom">Event Organizers</p>
                             <div>

@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import logo from '../logo.svg';
 import '../styles/events.css';
 
-export default function EventPage({ title, descText, bgSrc, cardImgSrc, contact, rules }) {
+export default function EventPage({ title, descText, bgSrc, cardImgSrc, contact, rules, time }) {
     return(
         // <div className="container-fluid custom-bg full-height">
         //     <div className="row px-0">
@@ -67,7 +67,7 @@ export default function EventPage({ title, descText, bgSrc, cardImgSrc, contact,
                             </div>
                         ):(<></>)
                     }
-                    <p>Time: 3:30pm</p>
+                    <p>Time: {time}</p>
                     <div className="container-fluid p-0">
                         <p className="border-bottom">Event Organizers</p>
                         <div>
