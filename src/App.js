@@ -62,7 +62,7 @@ const content = [
     descText: 'What\'s the problem here?',
     bgSrc: '/assets/debugging.jpeg',
     cardImgSrc: '/assets/card/debugging.jpeg',
-    contact: [{ 'name': 'Arunambika', phoneNumber: '78996 68979' }, { 'name': 'Eswaran', phoneNumber: '88071 01772' }],
+    contact: [{ 'name': 'Mohan Raj K', phoneNumber: '86674 44169' }, { 'name': 'Eswaran', phoneNumber: '88071 01772' }],
     rules:[
       "A team can be max of 3 members",
       "Mobile phones not allowed",
