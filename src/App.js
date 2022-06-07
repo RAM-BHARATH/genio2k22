@@ -22,7 +22,7 @@ const content = [
   {
     eventId: 1,
     title: 'Coding',
-    descText: 'Show off your skills',
+    descText: 'Simple things should be simple, complex things should be possible!',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/coding.jpg',
     contact: [{ 'name': 'Vignesh', phoneNumber: '90804 78472' }, { 'name': 'Rinisha', phoneNumber: '99524 15564' }],
@@ -79,7 +79,7 @@ const content = [
   {
     eventId: 4,
     title: 'Reelstagram',
-    descText: 'What\'s the problem here?',
+    descText: 'What can you do in a minute?',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/reels.jpeg',
     contact: [{ 'name': 'Rithick KV', phoneNumber: '93602 73339' }, { 'name': 'Diwahar S', phoneNumber: '80563 21275' }],
@@ -95,7 +95,7 @@ const content = [
   {
     eventId: 5,
     title: 'Creativa Logo',
-    descText: 'What\'s the problem here?',
+    descText: 'How creative can you be?',
     bgSrc: '/assets/logo-design.jpg',
     cardImgSrc: '/assets/card/logo-design.jpg',
     contact: [{ 'name': 'Bharathi Shavakkar', phoneNumber: '76769 77989' }, { 'name': 'Arrush', phoneNumber: '63820 34804' }],
@@ -126,7 +126,7 @@ const content = [
   {
     eventId: 7,
     title: 'BGMI Clash',
-    descText: 'What\'s the problem here?',
+    descText: 'Who\'s gonna get the chicken dinner?',
     bgSrc: '/assets/coding.jpeg',
     cardImgSrc: '/assets/card/bgmi.jpeg',
     contact: [{ 'name': 'Navin Raj', phoneNumber: '93602 70913' }, { 'name': 'Harish', phoneNumber: '83444 46333' }],
